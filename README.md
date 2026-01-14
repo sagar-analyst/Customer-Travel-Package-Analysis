@@ -1,16 +1,16 @@
 # Travel Product Conversion Analysis
 
 ## Overview
-This project analyzes customer-level data to understand the key drivers of travel product conversion. The objective is to identify which customer segments convert better and how sales efforts can be prioritized to improve overall conversion efficiency.
+This project was completed **during my data analytics training** as an end-to-end analysis exercise focused on understanding the key drivers of customer conversion for a travel product.
 
-The analysis follows a structured pipeline from raw data to actionable business insights and a decision-focused dashboard.
+The project has been **recently uploaded to GitHub** after refining the analysis, improving pivot structures, and designing a clean, decision-focused dashboard suitable for portfolio presentation.
 
 ---
 
 ## Dataset Structure
-- **Raw Data** – Original dataset before any changes  
-- **Cleaned_data** – Data after handling missing values and standardizing formats  
-- **Analysis_data** – Data enriched with analytical features and segments  
+- **Raw Data** – Original dataset used during training  
+- **Cleaned_data** – Dataset after handling missing values and standardizing formats  
+- **Analysis_data** – Data enriched with analytical segments and indicators  
 - **Analysis_summary** – KPIs and pivot-based aggregations  
 - **Dashboard** – Visual summary highlighting conversion drivers  
 
@@ -27,27 +27,27 @@ The analysis follows a structured pipeline from raw data to actionable business 
 ## Key Analysis & Insights
 
 ### 1. Travel Readiness Score
-A composite **Travel Readiness Score** was created using passport availability, income band, property rating, and asset ownership.  
-Customers in the highest readiness segment convert at **25%**, significantly higher than the overall average, validating readiness-based lead prioritization.
+As part of the training exercise, a composite **Travel Readiness Score** was created using passport availability, income band, property rating, and asset ownership.  
+Customers in the highest readiness segment showed a **25% conversion rate**, significantly higher than the overall average, validating readiness-based lead prioritization.
 
 ### 2. Income Band Impact
-Conversion rate increases consistently from **Low → Medium → High income bands**, showing that purchasing power is a strong determinant of conversion.
+Conversion rates increased consistently from **Low → Medium → High income bands**, indicating that purchasing power plays a major role in conversion likelihood.
 
 ### 3. Follow-up Effectiveness
-Moderate to high follow-up levels improve conversion, but returns diminish beyond a point, indicating the need for optimized follow-up strategies.
+Moderate to high follow-up levels resulted in better conversion outcomes, while excessive follow-ups showed diminishing returns.
 
 ### 4. Age Group Trends
-Middle-aged customers (35–54) show higher conversion compared to younger and older segments, suggesting better alignment with product pricing and intent.
+Customers in the **35–54 age group** demonstrated higher conversion compared to younger and older segments.
 
 ### 5. Pitch Duration
-Longer pitches are associated with higher conversion, likely because they occur with already-interested customers rather than causing conversion themselves.
+Longer pitch durations were associated with higher conversion, likely reflecting higher intent customers rather than pitch length alone.
 
 ---
 
 ## Tools Used
-- Microsoft Excel (data cleaning, pivot tables, dashboarding)
+- Microsoft Excel (data cleaning, pivot analysis, dashboarding)
 
 ---
 
-## Business Outcome
-The analysis demonstrates how combining customer readiness indicators with behavioral data can improve sales prioritization and conversion efficiency.
+## Note
+This project was completed during training and later refined and uploaded to GitHub to showcase analytical thinking, structured analysis, and dashboard design.
